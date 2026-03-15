@@ -7,6 +7,7 @@ Users can upload images through the UI and obtain classification results generat
 
 # Project Structure
 
+```text
 project/
 │
 ├── UI/
@@ -21,23 +22,3 @@ project/
 ├── requirements.txt # Python environment dependencies
 │
 └── README.md
-
-
----
-
-# Environment Setup
-
-It is recommended to create a Python virtual environment before installing dependencies.
-
-### Install dependencies
-
-```bash
-pip install -r requirements.txt
-
-Run the User Interface
-Navigate to the UI directory and run the Streamlit application.
-streamlit run UI.py
-
-weights
-Contains the trained model weights.
-weights/best_model.pth
